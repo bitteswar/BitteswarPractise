@@ -35,7 +35,7 @@ public class LoginpageTours extends TestBase{
 	public void login(String usrname,String paswrd) {
 		
 		userName.sendKeys(usrname);
-		WebDriverWait wait=new WebDriverWait(driver,20);
+		WebDriverWait wait=new WebDriverWait(driver,30);
 		wait.until(ExpectedConditions.visibilityOf(password));
 		password.sendKeys(paswrd);
 		wait.until(ExpectedConditions.elementToBeClickable(login));
