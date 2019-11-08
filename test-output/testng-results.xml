@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="55930" started-at="2019-10-20T19:08:40Z" finished-at="2019-10-20T19:09:36Z">
+    <groups>
+    </groups>
+    <test name="Free CRM App Test Cases" duration-ms="55930" started-at="2019-10-20T19:08:40Z" finished-at="2019-10-20T19:09:36Z">
+      <class name="com.hca.qa.testcase.SelectingFlightsFromTable">
+        <test-method status="PASS" signature="luchingApplication()[pri:0, instance:com.hca.qa.testcase.SelectingFlightsFromTable@1a968a59]" name="luchingApplication" is-config="true" duration-ms="18247" started-at="2019-10-21T00:39:09Z" finished-at="2019-10-21T00:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luchingApplication -->
+        <test-method status="PASS" signature="seletingFlightfrmlist()[pri:0, instance:com.hca.qa.testcase.SelectingFlightsFromTable@1a968a59]" name="seletingFlightfrmlist" duration-ms="7873" started-at="2019-10-21T00:39:27Z" finished-at="2019-10-21T00:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seletingFlightfrmlist -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hca.qa.testcase.SelectingFlightsFromTable@1a968a59]" name="teardown" is-config="true" duration-ms="847" started-at="2019-10-21T00:39:35Z" finished-at="2019-10-21T00:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.hca.qa.testcase.SelectingFlightsFromTable -->
+      <class name="com.hca.qa.testcase.SearchingFlights">
+        <test-method status="PASS" signature="luchingApplication()[pri:0, instance:com.hca.qa.testcase.SearchingFlights@6a41eaa2]" name="luchingApplication" is-config="true" duration-ms="17547" started-at="2019-10-21T00:38:40Z" finished-at="2019-10-21T00:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luchingApplication -->
+        <test-method status="PASS" signature="serachingFlights()[pri:0, instance:com.hca.qa.testcase.SearchingFlights@6a41eaa2]" name="serachingFlights" duration-ms="10399" started-at="2019-10-21T00:38:57Z" finished-at="2019-10-21T00:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serachingFlights -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hca.qa.testcase.SearchingFlights@6a41eaa2]" name="teardown" is-config="true" duration-ms="963" started-at="2019-10-21T00:39:08Z" finished-at="2019-10-21T00:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.hca.qa.testcase.SearchingFlights -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+</testng-results>
