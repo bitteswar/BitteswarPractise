@@ -43,7 +43,7 @@ public class TestBase {
 
 		String BrowserName = prop.getProperty("Browser");
 		String URL=prop.getProperty("url4");
-		if (BrowserName.equals("chrome")) {
+		if (BrowserName.equalsIgnoreCase("chrome")) {
 
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\HP15 BA022AX\\Desktop\\Bitteswar Selenium Practice\\BittuWork1\\BitteswarPractise\\chromedriver.exe");
@@ -69,7 +69,7 @@ public class TestBase {
 		    driver=e_driver;
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(URL);
 		
 
